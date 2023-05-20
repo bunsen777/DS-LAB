@@ -1,0 +1,21 @@
+RMI IMPLEMENTATION
+
+Step 7: Compile and execute application programs:
+
+#Javac SearchQuery.java
+#rmic SearchQuery
+#rmiregistry on console
+
+On console-1:
+
+Compile Server Application:
+
+#javac SearchServer.java
+#java SearchServer
+
+On console-2:
+
+Compile ClientRequet Application:
+
+#Javac ClientRequest.java
+#java ClientRequest
